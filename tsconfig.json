@@ -3,12 +3,13 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "node_modules/@types/react/index.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
